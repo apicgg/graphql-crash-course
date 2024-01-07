@@ -1,10 +1,9 @@
 {
   "name": "graphql-crash-course",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "dev": "node --watch server/index.js"
+    "dev": "node --env-file=.env --watch server/index.js"
   },
   "keywords": [],
   "author": "",
